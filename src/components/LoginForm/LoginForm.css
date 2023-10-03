@@ -1,0 +1,36 @@
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #87ceeb; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 40%;
+}
+
+.form-group {
+  margin-bottom: 20px; 
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px; 
+  color: black;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin: 0 auto; 
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+

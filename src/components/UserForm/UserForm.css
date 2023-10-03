@@ -1,0 +1,43 @@
+/* UserForm.css */
+/* UserForm.css */
+.registration-form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form input[type="password"] {
+    width: calc(100% - 20px); /* Abzüglich 20px für den rechten Abstand */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+  }
+  
+  .registration-form button {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: darkgray;
+  }
+  
